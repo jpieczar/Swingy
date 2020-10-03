@@ -17,7 +17,7 @@ public class MainFrame {
 	public static String nameChosen;
 
 	public static void MainFrames() {
-		JFrame frameMain = new JFrame();
+		final JFrame frameMain = new JFrame();
 		frameMain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frameMain.setTitle("Swingy by jpieczar");
 
@@ -73,16 +73,16 @@ public class MainFrame {
 	}
 
 	public static void frameMore() {
-		JFrame frameMain = new JFrame();
+		final JFrame frameMain = new JFrame();
 		frameMain.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frameMain.setTitle("Swingy by jpieczar");
 		// Create menu *START* // Done
 		JPanel createMenu = new JPanel();
 		JLabel createTitle = new JLabel();
-		JLabel selectedClass = new JLabel();
+		final JLabel selectedClass = new JLabel();
 		JPanel createMore = new JPanel();
 		JPanel createEvenMore = new JPanel();
-		JTextField enterName = new JTextField();
+		final JTextField enterName = new JTextField();
 		JButton createHero = new JButton();
 		createHero.addActionListener(new ActionListener () {
 			public void actionPerformed(ActionEvent evnt) {
@@ -151,13 +151,13 @@ public class MainFrame {
 		frameMain.setResizable(false);
 	}
 
-	public static void frameNext(int size) {
+	public static void frameNext(final int size) {
 		MapGenerator.drawMap(size); // Do in while loop.
-		JFrame frameMain = new JFrame();
-		JTextArea jt = new JTextArea(); // Map view works.
+		final JFrame frameMain = new JFrame();
+		final JTextArea jt = new JTextArea(); // Map view works.
 		JPanel mapView1 = new JPanel();
 		JPanel mapView2 = new JPanel();
-		JLabel message = new JLabel();
+		final JLabel message = new JLabel();
 		message.setText(" ... ");
 		JTextArea  artMessage = new JTextArea();
 		artMessage.setText(Hero.getStats());
