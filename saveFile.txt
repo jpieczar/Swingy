@@ -1,0 +1,11 @@
+1
+0~Villain~Bandit~0~0~100~75~50~2~4
+1~Villain~Bandit~0~0~100~75~50~7~5
+2~Villain~Bandit~0~0~100~75~50~6~3
+3~Villain~Bandit~0~0~100~75~50~9~7
+4~Villain~Dragon~0~0~100~100~175~9~3
+5~Villain~Troll~0~0~100~100~50~6~2
+6~Villain~Bandit~0~0~100~75~50~2~6
+7~Villain~Dragon~0~0~100~100~175~3~9
+8~Villain~Troll~0~0~100~100~50~2~4
+9~Jono~Mage~0~0~75~100~50~4~2
