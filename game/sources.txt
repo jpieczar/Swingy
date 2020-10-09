@@ -1,9 +1,0 @@
-./model/artifacts/Artifacts.java
-./model/map/MapGenerator.java
-./model/characters/Output.java
-./model/characters/Hero.java
-./model/characters/Villain.java
-./model/characters/CHaracter.java
-./controller/Control.java
-./view/MainFrame.java
-./run/Main.java
